@@ -48,13 +48,13 @@ comark: true
 </style>
 
 <div class="cover-title">
-  Planetary Systems of Small Bodies
+  Small Bodies in Solar System
 </div>
 
 <div class="cover-line"></div>
 
 <div class="cover-subtitle">
-  Overview
+  
 </div>
 
 ---
@@ -62,142 +62,116 @@ layout: default
 class: bg-white text-black
 ---
 
-# Introduction
+## Small Bodies
 
-<div class="grid grid-cols-2 gap-6 items-center">
+<div class="grid grid-cols-10 gap-8 items-start">
+
+  <div class="col-span-3">
+
+<p class="mb-4">
+小天体とは，惑星と自然衛星を除いたすべての自然天体である．
+</p>
+
+<ul>
+  <li>彗星</li>
+  <li>小惑星</li>
+  <li>太陽系外縁天体（カイパーベルト帯天体，ケンタウルス天体など）</li>
+  <li>隕石</li>
+  <li>塵</li>
+  <li>準惑星</li>
+  <li>トロヤ群</li>
+  <li>...</li>
+</ul>
+
+  </div>
+
+  <div class="col-span-7 flex justify-center">
+    <img src="/solar system.png" class="w-full max-w-xl rounded-lg" />
+  </div>
+
+</div>
+
+---
+
+## Solar System
+
+<div class="w-full h-[calc(100%-3rem)] flex justify-center items-center">
+  <img src="/PIA17046_-_Voyager_1_Goes_Interstellar.jpg" class="max-w-full max-h-full object-cover" />
+</div>
+
+---
+
+<h1 class="mt-0 mb-1">小惑星帯，カイパーベルト，オールト雲の位置</h1>
+
+<div class="w-full h-[calc(100%-8rem)] flex justify-center items-center">
+  <img src="/Small_objects_in_the_Solar_System.jpg" class="scale-114 object-contain" />
+</div>
+
+**カイパーベルト**：海王星軌道（30.2AU）外側，小天体が密集するドーナツ状の領域
+
+**オールト雲**：太陽系外部球殻状と考えられている天体群である．
+
+---
+
+<div class="float-right ml-6 mb-4 mr-0 w-80 translate-y-4">
+  <img src="/Lagrange_very_massive.png" class="w-full rounded-lg" />
+  <p class="text-xs text-center mt-1 text-gray-600">
+    Figure: Trojans near the Lagrange points $L_4$ and $L_5$
+  </p>
+</div>
+
+### Centarus ケンタウルス天体
+
+木星と海王星の間に存在する天体
+
+<div class="grid grid-cols-2 gap-6">
 
 <div>
+
+$$
+\text{木星} < 
+\begin{matrix}
+\text{近点距離} \\
+\\
+\text{軌道長半径}
+\end{matrix}
+< \text{海王星}
+$$
+
+</div>
+
+<div>
+
+- 不安定な軌道
+- 海王星以遠に起源
+
+</div>
+
+</div>
+
+カイパーベルト起源し，巨大惑星に引かれて太陽系の「内側」に入る天体である．中間的なグループで，$10^8 \sim 10^9$年経って結局は木星族彗星（JFCs）・太陽系から脱出
+
+### Trojans トロヤ群
+
+- 惑星の前後$60^\circ$付近（ラグランジュ点$L_4, L_5$の近く）に安定に存在する小天体群
+
+<div class="clear-both"></div>
+
+
+---
+
+
+# Why Do We Study Small Bodies?
 
 小天体は太陽系の初期の情報を保存している重要な存在
 
-- 研究対象：太陽系内の小天体　~100AU
+- 物質的：海王星以遠の小天体の成分は，太陽系が形成する時期の外縁部の情報を反映している．
+> The composition of the solid bodies beyond Neptune's orbit reflects the early enviroment in the edge of the proto-solar disk.
 
-<!--
-1. Introduction
+- 力学的：成分だけでなく，小天体の軌道構成は昔の情報を反映する．
+> the orbital evolution of the objects reflects the formation history of the plantary system.
 
-The small bodies of the Solar System are carriers of information from the earliest epochs and,
-therefore, objects of great scientific interest.
-
-> small bodies とはなんですか？定義は？ $\rightarrow$ 小天体は太陽系の初期の情報を保存している重要な存在
-> earliest epochsとは具体的にはいつのことですか？
-> なぜ、small bodies 以外は information from the earliest epochs を持っていないのですか？
-
--->
-
-- 目的・意味：原始的な天体が多く，太陽系初期の情報が得られる
-- 特徴：反射率が小さく観測しにくい
-
-<!--
-Observationally, the small body populations tend to be difficult to study, both because small means “faint”,
-and because many of the bodies of greatest interest (the Kuiper belt objects, the Centaurs, the Trojans)
-are far-away residents of the middle and outer Solar System, rendering them fainter still.
-
-> ”faint” とはどういう意味ですか？ ほのかな，かすかな；観測しにくいことを表す
-> far-away とはどれくらいの距離のことを言っていますか？
-　 - Kuiper Belt: beyond the orbit of Neptune(over 30.2AU)
-   -  the Centaurs: q_J < q < q_N; a_J < a < a_N
-> the Kuiper belt objects, the Centaurs, the Trojans とはなんですか？定義は？
-> middle and outer Solar Systemとはどの領域ですか？
-> そもそも、太陽系にはどのような天体がどこまで広がっていますか？
- - 彗星
- - 小惑星・小惑星帯
- - ケンタウルス天体
- - カイパーベルト
- - オールト雲
- - 木星トロヤ
-
-
-This is why we can study self-luminous objects at the edge of the universe,
-but we can barely glimpse what’s in the Kuiper belt only 100 AU away.
-It’s also why the study of the small body populations is very fresh and new.
-
-> self-luminous objects とはなんですか？
-
-
-> 100AU とはどこですか？Kuiper belt以外の太陽系の天体はどれくらいの距離にありますか？
-
-
--->
-
-NASA JPLより小天体とは，惑星と自然衛星を除いたすべての自然天体である．
-
-</div>
-
-<div>
-
-<img src="/solar_system.jpg" class="w-full rounded-lg" />
-
-</div>
-
-</div>
-
----
-transition: slide-up
-level: 2
----
-
-# The Comets 彗星
-
-<p style="color: black !important; opacity: 1 !important;">
-  太陽系外縁から供給される小天体．起源は3つカイパーベルト，オールトの雲，小惑星帯
-</p>
-
-<table style="margin: 0 auto; width: 70%; border-collapse: collapse;">
-  <tbody>
-    <tr>
-      <th style="border: 1px solid #999; padding: 8px; text-align: center; font-weight: 700; vertical-align: middle;">
-        短周期彗星 SPCs
-      </th>
-      <th style="border: 1px solid #999; padding: 8px; text-align: center; font-weight: 700; vertical-align: middle;">
-        長周期彗星 LPCs
-      </th>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        P &lt; 200
-      </td>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        P &gt; 200
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        小さい軌道傾斜角と離心率
-      </td>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        等方的分布，最大e=1
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        順行
-      </td>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        順行・逆行
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        カイパーベルト（KB）
-      </td>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        オールト雲(OC)
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        軌道が「水平」
-      </td>
-      <td style="border: 1px solid #999; padding: 8px; text-align: center; vertical-align: middle;">
-        軌道が「傾いている」
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-彗星は多くのグループに分類される．例えば，ダモクレス族，木星族，ケンタウルス天体など
-
-ハレー型彗星（HTCs）：3つ目のグループ．力学的な性質が中間的，例えば，P1/ハレー彗星，$P=76$年，$i$がSPCsように$162^\circ$
+- 太陽系とそれ以外の宇宙環境との相互作用
 
 ---
 
@@ -218,10 +192,12 @@ $$
 \mu = G(m_1+m_2)
 $$
 
----
+--- 
 
-### 三体問題
+### The Three-body Problem
+
 3つの天体が互いに重力で影響し合う運動
+
 ### 円制限三体問題
 - 質量の大きい2つの天体
 - 3つ目の天体は質量が非常に小さく，無視する
@@ -229,34 +205,98 @@ $$
 ### Tisserand parameter
 制限三体問題において保存量
 $$
-T_J = \frac{a_J}{a} + 2 \left( (1 - e^2)\frac{a}{a_J} \right)^{1/2} \cos i
+T_J = \frac{a_J}{a} + 2\sqrt{ \left( (1 - e^2)\frac{a}{a_J} \right)} \cos i
 $$
 ここで，$a, e, i$ はそれぞれ彗星軌道の半長軸、離心率、軌道傾斜角；$a_J = 5.2 \,\mathrm{AU}$は木星軌道の長半径である．LPCsは $T_J \leq 2$，SPCsは $2 < T_J \leq 3$ を満たす．
 
 ---
 
-## 軌道の散乱
+### Kuiper Belt
 
-オールト雲はLPCsの供給源である．オールト雲には次のことが明確
-- $10^{12}$個の彗星
-- $10^5 AU$の半径スケール
-- もともと円盤であった．10億年わたって球状に
-
-現在，オールト雲の半径，構造，カイパーベルトとの境界に詳しくない
-
-質量 $M_*$、相対速度 $V_*$、最近接距離 $d$ をもつ通過恒星は、OC内を公転する彗星の速度に
+カイパーベルトの範囲は，海王星軌道（約30 $AU$）付近の内縁を持ち，観測でよくわかってないが数千$AU$まで広がっている．特に散乱円盤成分は短周期彗星，とくに木星族彗星の主な供給源と考えられている．カイパーベルト天体は太陽系形成時の力学進化の情報を保持しているため，その軌道分布は太陽系初期史を調べる手がかりになる．
+$f \propto r_H^{-4}$
+散乱光で観測される天体のフラックス密度は，太陽からの距離4乗に反比例するため，
 $$
-\Delta V \sim \left( \frac{2GM_*}{V_* d} \right)^{1/2}
+f \propto r_H^{-4}
 $$
-程度の摂動を与える．$G = 6.6 \times 10^{-11} \,\mathrm{N\,kg^{-2}\,m^2}$, $M_* = 2\times10^{30} \,\mathrm{kg}$, $V_* = 20 \,\mathrm{km\,s^{-1}}$, $d = 1\,\mathrm{pc} = 3\times10^{16}\,\mathrm{m}$を代入
+大きさが$~100km$程度の天体が$10^{5}$個，$1km$以上の天体が$10^{10}$個と推測される．
+
+### Oort Cloud
+
+オールト雲は長周期彗星の起源であり，$~10^{12}$個の彗星が含まれると思われている．球状(spherical swarm)の天体の集まりで，直径が$~10^5 AU$．オールト雲についてはよく知られていなく，太陽系内側に入る彗星の軌道から推測されている．
+
+
+
+---
+
+### 銀河潮汐による摂動時間スケール
+
+通過する天体の質量が$M_*$，相対速度$V_*$，最近接距離$d$をして，彗星のと通過天体の距離の関数が
+$$
+R = \sqrt{d^2 + V_* t}
+$$
+となり，最近接距離方向上の加速度
+$$
+a = \frac{GM_*}{R^2} \cdot \frac{d}{R}
+$$
+速度の変化（スカラー）$\Delta V$は
+$$
+\begin{aligned}
+\Delta V
+&= \int \frac{G M_*}{R^2} \cdot \frac{d}{R}\, dt \\
+&= \int \frac{G M_* d}{(d^2 + V_* t)^{3/2}}\, dt 
+\end{aligned}
+$$
+変数変換
+$$
+u = \frac{V_*t}{d}
+$$
+
+---
+
+$$
+\begin{aligned}
+\Delta V = \frac{GM_*}{dV_*} \int^{+\infty}_{-\infty} \frac{du}{(1+u^2)^{3/2}}
+\end{aligned}
+$$
+置換積分
+$$
+u = \tan{\theta} \\
+du = \frac{1}{\cos^2{\theta}}d\theta = \sec^2{\theta}d\theta
+$$
+を使って，積分部分は
+$$
+\begin{aligned}
+\begin{aligned}
+\int_{-\infty}^{+\infty} \frac{du}{(1+u^2)^{3/2}}
+&= \int_{-\pi/2}^{+\pi/2}
+\frac{\sec^2\theta}{\sec^3\theta}\,d\theta 
+= \int_{-\pi/2}^{+\pi/2} \cos\theta\,d\theta 
+= \left. \sin\theta \right|_{-\pi/2}^{+\pi/2}
+= 2 .
+\end{aligned}
+\end{aligned}
+$$
+$$
+\Delta V = \frac{2GM_*}{dV_*} 
+$$
+となる．
+$G = 6.6 \times 10^{-11} \,\mathrm{N\,kg^{-2}\,m^2}$，
+$M_* = 2\times10^{30} \,\mathrm{kg}$，
+$V_* = 20 \,\mathrm{km\,s^{-1}}$，
+$d = 1\,\mathrm{pc} = 3\times10^{16}\,\mathrm{m}$を代入すると
 $$
 \Delta V \sim 1 \,\mathrm{m\,s^{-1}}
 $$
 
 ---
 
-$10^5 AU$における公転速度は$V_K \sim 100 \,\mathrm{m\,s^{-1}}$である．$V_K$にたつまで$N \sim \left( \frac{V_K}{\Delta V} \right)^2$回の接近が必要であり，$N \sim 10^4$．
-実際は銀河潮汐により，10億年を要する．この時間スケールにおいて，惑星軌道面と同じ平面にあった円盤のOCは，等方的な球状分布となった．
+$10^5AU$におけるケプラー速度は$V_K \sim 93.8 m/s$.
+
+銀河潮汐による摂動時間スケール$N \sim (\frac{V_K}{\Delta V})^2　 = 10^4 yr$ となる． 
+
+
+---
 
 <div class="grid grid-cols-10 gap-8 items-start mt-6">
 
@@ -264,7 +304,6 @@ $10^5 AU$における公転速度は$V_K \sim 100 \,\mathrm{m\,s^{-1}}$である
 
 最近第三の彗星供給源が小惑星帯に発見した．ここに氷を含む小惑星が予想外に生き残っている．「メインベルト彗星(main-belt comets)」と呼ぶ．
 
-彗星（小天体）の「生まれる」から「死ぬ」まで，様々なグループに分類される．
 
 </div>
 
@@ -274,34 +313,58 @@ $10^5 AU$における公転速度は$V_K \sim 100 \,\mathrm{m\,s^{-1}}$である
 
 </div>
 
-彗星集団の関係を示す模式図である．右の時間スケールは，寿命を表す．
+彗星の運命は小惑星と似てて，太陽また惑星と衝突；太陽から脱出する；自我崩壊することである．
+
+歴史的理由から，水星は多くのグループに分類される．名称はそれぞれ性質を表さない．
+Damocloids（ダモクレス族）は消滅した長周期彗星である．ケンタウルス天体はカイパーベルトから脱出し，太陽系の惑星領域（特に巨大惑星の領域）に入った天体である．木星起動を超えたケンタウルス天体は木星族彗星と呼ぶ．非活動的木星族彗星はdJFCs（また彗星軌道上小惑星，ACOs）と呼ぶ．
+
+彗星に重要なのは，力学的と化学的性質である．
+
+
 
 ---
 
 ## 彗星の破壊
-彗星の起源を進んでいるが，破壊過程は十分分かっていない．主要なメカニズムは
-- 惑星と衝突
-- 星間空間へ放出
-- 自我崩壊
 
-木星族彗星の力学的半減期$\tau_d$は$\sim 0.4 \,\mathrm{Myr}$程度．しかし観測により，実際12,000 years．この大違いの理由は「エネルギー」
-太陽からのエネルギーの使い道は3つ
-- 反射
-- 熱放射
-- 氷の昇華
+前に紹介したように，彗星の破壊過程（メカニズム）が3つある．簡単に，衝突・脱出・崩壊である．
+
+木星族彗星を例として，力学的半減期$\tau_d \sim 0.4 \,\mathrm{Myr}$と考えられている．しかし，この長く存在すると，彗星の軌道傾斜角は現在より広く分布する．
+
+実際の半減期は$\tau \sim 12{,}000$である．なぜ$\tau \ll \tau_d$かを調べる必要となる．
+
+### 昇華
+輻射輸送から調べる．彗星の輻射平衡方程式は
+$$
+\frac{F_\odot}{r_H^2} = \chi \sigma T^4 +\chi f_s(T)H(T)
+$$
+である．ここで，$F_\odot = \int F_{\nu} d\nu$太陽の全周波数のエネルギーを表す．
+右辺の第一項で，$\chi$は形状修正係数，彗星の形状に依存する．$\varepsilon\sigma T^4$は彗星を黒体とみなし，放射するエネルギーである．
+
+右辺第二項は，熱に関するもので，$f_s(T)$が二相平衡状態についての関数である．$H(T)$は潜熱．
+
+---
+
+$$
+f_s =\frac{F_\odot-\chi \sigma T^4 r_H^2}{\chi H(T) r_H^2}
+$$
+$r_H \to 0$を取ると
+$$
+f_s \sim \frac{F_\odot(1-A)}{\chi H(T) r_H^2}
+$$
+となる．すなわち$f_s \propto r_H^{-2}$である．
+
+この時，彗星の直径を$r_n$として，$f_A$が昇華する面積と表面積との比例で，彗星の消えるまでの時間は
+$$
+\tau_{\text{sub}} \sim \frac{\rho_n r_n}{3 f_s f_A}
+$$
+>$\tau_{\text{sub}}$導出不能
+
+水氷の場合，$r_H = 3$AUにおいて，$f_s \sim 3 \times 10^{-5}$\,kg\,m$^{-2}$\,s$^{-1}$となり，$\rho_n = 500$\,kg\,m$^{-3}$半径1kmの核は$\tau_{\text{sub}} \sim 10^{12} \sim 10^5$yearsである．
+
+
 
 --- 
 
-## エネルギーバランスの式
-
-$$
-\frac{F_\odot}{r_H^2}(1 - A) = \chi \left[ \varepsilon \sigma T^4 + f_s(T) H(T) \right]
-$$
-左辺$F_\odot = 1360 \,\mathrm{W\,m^{-2}}$は太陽定数，$r_H$は単位AUで表す太陽からの距離，$A$は反射率．輸入したエネルギー<br>
-右辺の
-- $\varepsilon \sigma T^4$を熱放射，赤外線として逃げるエネルギー
-- $f_s(T) H(T)$昇華速度と潜熱
-- $1 \le \chi \le 4$，吸収されたエネルギーが表面にどのように分布する無次元量
 
 ## 球状天体臨界回転周期
 
